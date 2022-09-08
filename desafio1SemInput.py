@@ -1,8 +1,6 @@
 #cria a lista com os números
-n = int(input("Quantos números você irá querer na lista?"))
-lista = [0] * n
-for i in range(n) :
-    lista[i] = int(input(i, "item da sua lista"))
+
+lista = [1,2,3,4]
 
 #declara ad variaveis do menor número possível e menor número da lista para comparação
 menor_numero_possivel = 0
